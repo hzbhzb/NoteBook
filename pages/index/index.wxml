@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="header">
+   <!--<image class="logo"src="../../resouce/image/nrjt_logo.png"></image> -->
+   <image class="play_icon" src="../../resouce/image/playicon_1.gif"></image>
+</view>
+
+<view class="tab">
+    <text>首页</text>
+    <text>0~10</text>
+    <text>10~20</text>
+    <text>20~30</text>
+</view>
+
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+      <block wx:for="{{movies}}" wx:for-index="index">    
+        <swiper-item>    
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+        </swiper-item>    
+      </block>    
+</swiper>
