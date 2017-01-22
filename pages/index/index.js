@@ -18,6 +18,20 @@ Page({
       url: '../logs/logs'
     })
   },
+  add:function() {
+     wx.navigateTo({
+       url: '../add/add',
+       success: function(res){
+         // success
+       },
+       fail: function() {
+         // fail
+       },
+       complete: function() {
+         // complete
+       }
+     })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
