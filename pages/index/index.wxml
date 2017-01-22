@@ -18,3 +18,8 @@
         </swiper-item>    
       </block>    
 </swiper>
+
+<button hover-class="button-hover" class="button">
+    添加
+</button>
+

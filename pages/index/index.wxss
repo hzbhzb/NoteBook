@@ -57,3 +57,10 @@
   height: 100%;
   width: 100%;
 }
+.button-hover {
+  background-color: red;
+}
+
+.button {
+  margin:10px 10px 10px 10px
+}
