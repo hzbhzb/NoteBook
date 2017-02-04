@@ -19,7 +19,7 @@
       </block>    
 </swiper>
 
-<button hover-class="button-hover" class="button">
+<button hover-class="button-hover" class="button" bindtap="add">
     添加
 </button>
 
