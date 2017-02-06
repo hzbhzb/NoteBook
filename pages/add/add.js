@@ -1,6 +1,13 @@
 var app=getApp()
 Page({
-    save: function() {
-    console.log("save");
-  },
+    data:{
+      title:"",
+      content:""
+    }
+    save: function(e) {
+    console.log("save---" + e.detail.value);
+    },
+    bindTextAreaBlur: function(e) {
+      console.log(e.detail.value)
+    }
 })

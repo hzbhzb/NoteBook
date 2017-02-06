@@ -1,5 +1,5 @@
 <View>
   <input class="margin" placeholder="输入题目"/>
-  <textarea class="margin" placeholder="请输入内容"/>
+  <textarea class="margin" placeholder="请输入内容"  bindblur="bindTextAreaBlur" placeholder-style="color:red"/>
   <button class="margin" type ="warn" bindtap="save" >保存</button>
 </View>
